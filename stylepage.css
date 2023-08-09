@@ -10,9 +10,17 @@
  html,body{
    margin: 0 !important;
    padding: 0 !important;
-   height: 100% !important;
+   height: auto !important;
    width: 100% !important;
  }
+ html, body {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   
+   line-height: 26px;
+}
  .home {
    background-image: url(doctor_image07.jpeg);
   height: 60vw;
@@ -272,7 +280,7 @@ img {
    display: inline-block;
    background: #fff;
    padding: 20px 24px;
-   margin-right: 80px;
+   margin-right: 40px;
    transform: translateY(-2px);
 }
 .hamburger-menu-trigger {
@@ -291,7 +299,4 @@ img {
    z-index: 1;
    border: 4px solid #1a4755;
    position: relative;
-}
-.fa-bars:after{
-   content:"\f0c9";
 }

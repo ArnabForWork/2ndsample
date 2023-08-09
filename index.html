@@ -2,12 +2,16 @@
 <html class="no-js" lang="zxx">
 
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hospital Website</title>
   <link rel="stylesheet" href="stylepage.css" />
   <link rel="stylesheet" href="stylepage1.css" />
   <link rel="stylesheet" href="stylepage2.css" />
+  <link rel="stylesheet" href="stylepage3.css" />
+  <link rel="stylesheet" href="laststyle.css" />
+  <link rel="stylesheet" href="styleExtraChange.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -18,94 +22,534 @@
       color: white !important;
       font-weight: bolder !important;
     }
+    body{
+    overflow-x: hidden !important;
+    }
   </style>
 </head>
 
 <body>
-  <div class="home">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" style="color: white !important; font-weight: bolder" aria-current="page"
-                href="mailto:info@webmail.com">
-                info@webmail.com</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" style="color: white" href="tel:876864764764">+876 864 764 764</a>
-            </li>
-          </ul>
-          <div class="d-flex">
-            <select name="subject" style="display: none">
-              <option data-display="English">English</option>
+   <header class="site-header-2">
 
-              <option value="1">Bangla</option>
+    <div class="header-top-area">
 
-              <option value="2">Greek</option>
-            </select>
-            <div class="nice-select" tabindex="0">
-              <span>English</span>
-              <ul class="list">
-                <li data-value="English" data-display="English" class="option selected focus">
-                  English
-                </li>
-                <li data-value="1" class="option">Bangla</li>
-                <li data-value="2" class="option">Greek</li>
-              </ul>
+        <div class="container custom-header-2">
+
+            <div class="row">
+
+                <div class="col-md-6 col-sm-12">
+
+                    <div class="header-info-left">
+
+                        <ul>
+
+                            <li><i class="fa-regular fa-envelope"></i> <a href="mailto:info@webmail.com">info@webmail.com</a></li>
+
+                            <li><i class="fa-solid fa-phone"></i> <a href="tel:876864764764">+876 864 764 764</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 text-right">
+
+                    <div class="header-info-right">
+
+                        <div class="header-social-links">
+
+                            <a href="#0"><i class="fab fa-facebook"></i></a>
+
+                            <a href="#0"><i class="fab fa-twitter"></i></a>
+
+                            <a href="#0"><i class="fab fa-behance"></i></a>
+
+                            <a href="#0"><i class="fab fa-linkedin"></i></a>
+
+                            <a href="#0"><i class="fab fa-youtube"></i></a>
+
+                        </div>
+
+                        <div class="language-list">
+
+                            <select name="subject" style="display: none;">
+
+                                <option data-display="English">English</option>
+
+                                <option value="1">Bangla</option>
+
+                                <option value="2">Greek</option>
+
+                            </select><div class="nice-select" tabindex="0"><span class="current">English</span><ul class="list"><li data-value="English" data-display="English" class="option selected">English</li><li data-value="1" class="option">Bangla</li><li data-value="2" class="option">Greek</li></ul>
+                              <i class="fa-solid fa-down-long"></i></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
-          </div>
+
         </div>
-      </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="height: 90px !important">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="height: 90px !important">
-            <li class="nav-item">
-              <a class="nav-link" style="
-                    background-color: white;
-                    padding-bottom: 30px;
-                    margin-right: 40px;
-                  " href="#"><img src="doctor_image06.png" alt="unavailable" /></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home+</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Department+</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Doctors+</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop+</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News+</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">pages+</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link+</a>
-            </li>
-          </ul>
-          <div class="d-flex">
-            <a class="nav-link" style="margin-right: 10px" href="#"><img src="doctor_image08.png"
-                style="height: 60px !important" alt="unavailable" /></a>
-            <div class="content" style="color: white !important; font-weight: bolder">
-              <p>Get Support</p>
-              <a href="tel:987876875865" style="color: white !important; font-weight: bolder">+987(876)875865</a>
+
+    </div>
+
+    <div id="sticky-header" class="nav-area">
+
+        <div class="container custom-header-2">
+
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 my-auto">
+
+                    <div class="header-menu-wrap">
+
+                        <div class="menu-logo-wrap">
+
+                            <div class="logo-wrap">
+
+                                <a href="index.html" class="site-logo site-logo-2">
+
+                                    <img src="doctor_image06.png" alt="">
+
+                                </a>
+
+                                <div class="mobile-menu"></div>
+
+                            </div>
+
+                            <div class="mainmenu">
+
+                                <nav id="mobile-menu" style="display: inline-block;">
+
+                                    <ul>
+
+                                        <li><a href="#0">Home +</a>
+
+                                            <ul class="sub-menu">
+
+                                                <li><a href="index.html">Home Style 01</a></li>
+
+                                                <li><a href="index-2.html">Home Style 02</a></li>
+
+                                                <li><a href="index-3.html">Home Style 03</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                        <li><a href="services.html">Department +</a>
+
+                                            <ul class="sub-menu">
+
+                                                <li><a href="services-01.html">Department 01</a></li>
+
+                                                <li><a href="services-02.html">Department 02</a></li>
+
+                                                <li><a href="services-03.html">Department 03</a></li>
+
+                                                <li><a href="service-details.html">Department Details</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                        <li><a href="doctors-01.html">Doctors +</a>
+
+                                            <ul class="sub-menu">
+
+                                                <li><a href="doctors-01.html">Doctors 01</a></li>
+
+                                                <li><a href="doctors-02.html">Doctors 02</a></li>
+
+                                                <li><a href="doctors-03.html">Doctors 03</a></li>
+
+                                                <li><a href="doctors-04.html">Doctors 04</a></li>
+
+                                                <li><a href="doctor-details.html">Doctors Details</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                        <li><a href="shop.html">Shop +</a>
+
+                                            <ul class="sub-menu">
+
+                                                <li><a href="shop.html">Default Shop</a></li>
+
+                                                <li><a href="product-details.html">Product Details</a></li>
+
+                                                <li><a href="cart.html">Shopping Cart</a></li>
+
+                                                <li><a href="checkout.html">Checkout</a></li>
+
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+
+                                                <li><a href="login.html">Login</a></li>
+
+                                                <li><a href="register.html">Register</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                        <li><a href="blog.html">News +</a>
+
+                                            <ul class="sub-menu">
+
+                                                <li><a href="blog.html">Blog Right Sidebar</a></li>
+
+                                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+
+                                                <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
+
+                                                <li><a href="blog-2-col.html">Blog 2 Column</a></li>
+
+                                                <li><a href="blog-2-col-mas.html">Blog 2 Col Masonry</a></li>
+
+                                                <li><a href="blog-3-col.html">Blog 3 Column</a></li>
+
+                                                <li><a href="blog-3-col-mas.html">Blog 3 Col Masonry</a></li>
+
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+
+                                                <li><a href="blog-details-left-sidebar.html">Details Left Sidebar</a></li>
+
+                                                <li><a href="blog-details-audio.html">Details Audio</a></li>
+
+                                                <li><a href="blog-details-video.html">Details Video</a></li>
+
+                                                <li><a href="blog-details-gallery.html">Details Gallery</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+
+
+                                        <li><a href="#0">Pages +</a>
+
+                                            <ul class="sub-menu">
+
+                                                <li><a href="about.html">About</a></li>
+
+                                                <li><a href="gallery-01.html">Gallery 01</a></li>
+
+                                                <li><a href="gallery-02.html">Gallery 02</a></li>
+
+                                                <li><a href="gallery-03.html">Gallery 03</a></li>
+
+                                                <li><a href="gallery-details.html">Gallery Details</a></li>
+
+                                                <li><a href="appoinment.html">Appoinment</a></li>
+
+                                                <li><a href="contact.html">Contact</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                    </ul>
+
+                                </nav>
+
+                            </div>
+
+                        </div>
+
+                        <div class="header-nav-info-wrap">
+
+                            <div class="header-top-info d-flex align-items-center">
+
+                                <div class="icon">
+
+                                    <img src="doctor_image08.png" alt="">
+
+                                </div>
+
+                                <div class="content">
+
+                                    <p>Get Support</p>
+
+                                    <a href="tel:987876875865">+987 (876) 875 86 5</a>
+
+                                </div>
+
+                            </div>
+
+                            <button class="hamburger-menu-trigger">
+                              <i class="fa-solid fa-bars fa-lg"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
-            <button class="hamburger-menu-trigger" fdprocessedid="c7kp88">
-              <i class="fa fa-bars"></i>
-            </button>
-          </div>
+
         </div>
+
+    </div>
+
+</header> 
+<img class="bgmine" src="doctor_image07.jpeg">
+   <div class="firstbg"></div>
+   <img class="thirdbg" src="doc52.png">
+   <div class="rightbox">
+    <a href="#0" class="slide-btn" style="margin-bottom:50% ;"><i class="fa-solid fa-share"></i></a>
+   <!--  <i class="fa-solid fa-share duo"></i> -->
+    <br>
+    <a href="#0" class="slide-btn"> <i class="fa-solid fa-down-long"></i></i></a>
+   </div>
+   <div class="leftbox">
+    <a href="#0" class="slide-btn" style="margin-bottom:50% ;"><i class="fa-regular fa-message"></i></a>
+   </div>
+   <div style="height: 950px;width: 1000;background-color:transparent;"></div>
+   <div class="secondbg">Medical</div>
+   <div class="maintext">
+      <div class="wlc">welcome to our clinic</div>
+      <h2 class="dc">Medical <span style="font-weight:lighter !important">& Clinic</span><span class="dot">.</span></h2>
+      <div class="box">
+         <div class="innerbox blue">Our Departments</div>
+         <div class="innerbox red">Learn More</div>
       </div>
-    </nav>
+   </div>
+ <!--  <div class="offcanvas-overly"></div>
+  <section class="hero-slider-area">
+
+  <div class="hero-slider owl-carousel owl-loaded owl-drag">
+
+      
+
+      
+
+  <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2452px, 0px, 0px); transition: all 0s ease 0s; width: 7356px;"><div class="owl-item cloned" style="width: 1226px;"><div class="single-slide-item bg_img d-flex align-items-center" data-overlay="8" data-background="doctor_image02.jpg" style="background-image: url(doctor_image07.jpg);">
+
+          <div class="container custom-container">
+
+              <div class="row">
+
+                  <div class="col-lg-12 text-center">
+
+                      <div class="single-slide-content">
+
+                          <h5 class="sub-title" data-animation="fadeInUp" data-delay=".1s" data-duration=".3s" style="animation-delay: 0.1s; animation-duration: 0.3s;">Welcome To Our Clinic</h5>
+
+                          <h2 class="title" data-animation="fadeInUp" data-delay=".3s" data-duration=".5s" style="animation-delay: 0.3s; animation-duration: 0.5s;">Medical <span>&amp; Clinic</span><span class="dot">.</span></h2>
+
+                          <div class="hero-buttons">
+
+                              <a href="service-details.html" class="site-btn" data-animation="fadeInUp" data-delay=".9s" data-duration=".7s" style="animation-delay: 0.9s; animation-duration: 0.7s;">Our
+
+                                  Departments</a>
+
+                              <a href="about.html" class="site-btn red" data-animation="fadeInUp" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Learn More</a>
+
+                          </div>
+
+                          <h1 class="back-title" data-animation="fadeIn" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Medical</h1>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div></div><div class="owl-item cloned" style="width: 1226px; "><div class="single-slide-item bg_img d-flex align-items-center" data-overlay="8" data-background="assets/images/banner/slider-2.jpg" style="background-image: url(doctor_image02.jpg);">
+
+          <div class="container custom-container">
+
+              <div class="row">
+
+                  <div class="col-lg-12 text-center">
+
+                      <div class="single-slide-content">
+
+                          <h5 class="sub-title" data-animation="fadeInUp" data-delay=".1s" data-duration=".3s" style="animation-delay: 0.1s; animation-duration: 0.3s;">
+
+                              Welcome To Our Clinic</h5>
+
+                          <h2 class="title" data-animation="fadeInUp" data-delay=".3s" data-duration=".5s" style="animation-delay: 0.3s; animation-duration: 0.5s;">Dental <span>&amp; Clinic</span><span class="dot">.</span></h2>
+
+                          <div class="hero-buttons">
+
+                              <a href="service-details.html" class="site-btn" data-animation="fadeInUp" data-delay=".9s" data-duration=".7s" style="animation-delay: 0.9s; animation-duration: 0.7s;">Our Departments</a>
+
+                              <a href="about.html" class="site-btn red" data-animation="fadeInUp" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Learn More</a>
+
+                          </div>
+
+                          <h1 class="back-title" data-animation="fadeIn" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Medical</h1>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div></div><div class="owl-item active" style="width: 1226px;"><div class="single-slide-item bg_img d-flex align-items-center" data-overlay="8" data-background="assets/images/banner/02.jpeg" style="background-image: url(&quot;assets/images/banner/02.jpeg&quot;);">
+
+          <div class="container custom-container">
+
+              <div class="row">
+
+                  <div class="col-lg-12 text-center">
+
+                      <div class="single-slide-content">
+
+                          <h5 class="sub-title" data-animation="fadeInUp" data-delay=".1s" data-duration=".3s" style="animation-delay: 0.1s; animation-duration: 0.3s;">Welcome To Our Clinic</h5>
+
+                          <h2 class="title" data-animation="fadeInUp" data-delay=".3s" data-duration=".5s" style="animation-delay: 0.3s; animation-duration: 0.5s;">Medical <span>&amp; Clinic</span><span class="dot">.</span></h2>
+
+                          <div class="hero-buttons">
+
+                              <a href="service-details.html" class="site-btn" data-animation="fadeInUp" data-delay=".9s" data-duration=".7s" style="animation-delay: 0.9s; animation-duration: 0.7s;">Our
+
+                                  Departments</a>
+
+                              <a href="about.html" class="site-btn red" data-animation="fadeInUp" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Learn More</a>
+
+                          </div>
+
+                          <h1 class="back-title" data-animation="fadeIn" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Medical</h1>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div></div><div class="owl-item" style="width: 1226px;"><div class="single-slide-item bg_img d-flex align-items-center" data-overlay="8" data-background="assets/images/banner/slider-2.jpg" style="background-image: url(&quot;assets/images/banner/slider-2.jpg&quot;);">
+
+          <div class="container custom-container">
+
+              <div class="row">
+
+                  <div class="col-lg-12 text-center">
+
+                      <div class="single-slide-content">
+
+                          <h5 class="sub-title" data-animation="fadeInUp" data-delay=".1s" data-duration=".3s" style="animation-delay: 0.1s; animation-duration: 0.3s;">
+
+                              Welcome To Our Clinic</h5>
+
+                          <h2 class="title" data-animation="fadeInUp" data-delay=".3s" data-duration=".5s" style="animation-delay: 0.3s; animation-duration: 0.5s;">Dental <span>&amp; Clinic</span><span class="dot">.</span></h2>
+
+                          <div class="hero-buttons">
+
+                              <a href="service-details.html" class="site-btn" data-animation="fadeInUp" data-delay=".9s" data-duration=".7s" style="animation-delay: 0.9s; animation-duration: 0.7s;">Our Departments</a>
+
+                              <a href="about.html" class="site-btn red" data-animation="fadeInUp" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Learn More</a>
+
+                          </div>
+
+                          <h1 class="back-title" data-animation="fadeIn" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Medical</h1>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div></div><div class="owl-item cloned" style="width: 1226px;"><div class="single-slide-item bg_img d-flex align-items-center" data-overlay="8" data-background="assets/images/banner/02.jpeg" style="background-image: url(&quot;assets/images/banner/02.jpeg&quot;);">
+
+          <div class="container custom-container">
+
+              <div class="row">
+
+                  <div class="col-lg-12 text-center">
+
+                      <div class="single-slide-content">
+
+                          <h5 class="sub-title" data-animation="fadeInUp" data-delay=".1s" data-duration=".3s" style="animation-delay: 0.1s; animation-duration: 0.3s;">Welcome To Our Clinic</h5>
+
+                          <h2 class="title" data-animation="fadeInUp" data-delay=".3s" data-duration=".5s" style="animation-delay: 0.3s; animation-duration: 0.5s;">Medical <span>&amp; Clinic</span><span class="dot">.</span></h2>
+
+                          <div class="hero-buttons">
+
+                              <a href="service-details.html" class="site-btn" data-animation="fadeInUp" data-delay=".9s" data-duration=".7s" style="animation-delay: 0.9s; animation-duration: 0.7s;">Our
+
+                                  Departments</a>
+
+                              <a href="about.html" class="site-btn red" data-animation="fadeInUp" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Learn More</a>
+
+                          </div>
+
+                          <h1 class="back-title" data-animation="fadeIn" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Medical</h1>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div></div><div class="owl-item cloned" style="width: 1226px;"><div class="single-slide-item bg_img d-flex align-items-center" data-overlay="8" data-background="assets/images/banner/slider-2.jpg" style="background-image: url(&quot;assets/images/banner/slider-2.jpg&quot;);">
+
+          <div class="container custom-container">
+
+              <div class="row">
+
+                  <div class="col-lg-12 text-center">
+
+                      <div class="single-slide-content">
+
+                          <h5 class="sub-title" data-animation="fadeInUp" data-delay=".1s" data-duration=".3s" style="animation-delay: 0.1s; animation-duration: 0.3s;">
+
+                              Welcome To Our Clinic</h5>
+
+                          <h2 class="title" data-animation="fadeInUp" data-delay=".3s" data-duration=".5s" style="animation-delay: 0.3s; animation-duration: 0.5s;">Dental <span>&amp; Clinic</span><span class="dot">.</span></h2>
+
+                          <div class="hero-buttons">
+
+                              <a href="service-details.html" class="site-btn" data-animation="fadeInUp" data-delay=".9s" data-duration=".7s" style="animation-delay: 0.9s; animation-duration: 0.7s;">Our Departments</a>
+
+                              <a href="about.html" class="site-btn red" data-animation="fadeInUp" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Learn More</a>
+
+                          </div>
+
+                          <h1 class="back-title" data-animation="fadeIn" data-delay="1.1s" data-duration=".9s" style="animation-delay: 1.1s; animation-duration: 0.9s;">Medical</h1>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev"><i class="fal fa-angle-left"></i></div><div class="owl-next"><i class="fal fa-angle-right"></i></div></div><div class="owl-dots disabled"></div></div>
+
+  <div class="hero-slide-left">
+
+      <a href="#0" class="slide-btn"><i class="fal fa-share"></i></a>
+
+      <a href="#0" class="slide-btn"><i class="fal fa-arrow-down"></i></a>
+
   </div>
+
+  <div class="hero-slide-right">
+
+      <a href="#0" class="slide-btn"><i class="fal fa-comments"></i></a>
+
+  </div>
+
+</section>  -->
 
   <section class="about-area about-area-2 bg_img pt-120 pb-120" data-background="assets/images/bg/about-bg.png" style="
         background-image: url(doctor_image03.png);
@@ -223,7 +667,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> 
   <section class="service-area pt-120 pb-120 bg_img" data-overlay="94"
     data-background="assets/images/bg/service-bg.jpeg" style="background-image: url(doctor_image13.jpeg)">
     <div class="container">
@@ -315,7 +759,7 @@
         </div>
 
         <div class="col-lg-12">
-          <div class="tab-content service-tab-content mt-60">
+          <div class="tab-content service-tab-content mt-60" style="padding-left: 5% !important;padding-right: 5% !important;">
             <div role="tabpanel" class="tab-pane fade in active show" id="tab-1">
               <div class="row">
                 <div class="col-lg-5">
@@ -601,15 +1045,15 @@
         </div>
       </div>
     </div>
-  </section>
-  <div class="doctor-carousel owl-carousel owl-loaded owl-drag">
+  </section> 
+   <div class="doctor-carousel owl-carousel owl-loaded owl-drag">
     <div class="owl-stage-outer">
       <div class="owl-stage" style="
             transform: translate3d(-1031px, 0px, 0px);
             transition: all 0s ease 0s;
-            width: 3781px;
+            width: 5000px;
           ">
-        <div class="owl-item active" style="width: 343.667px">
+        <div class="owl-item active" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc36.png" alt="" />
@@ -641,13 +1085,13 @@
             </div>
           </div>
         </div>
-        <div class="owl-item cloned" style="width: 343.667px">
+        <div class="owl-item cloned" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc36.jpeg" alt="" />
 
               <span class="icon">
-                <img src="doc33.png" alt="" />
+                <img src="doc35.png" alt="" />
               </span>
             </div>
 
@@ -673,7 +1117,7 @@
             </div>
           </div>
         </div>
-        <div class="owl-item active" style="width: 343.667px">
+        <div class="owl-item active" style="width: 300px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc36.jpeg" alt="" />
@@ -705,7 +1149,7 @@
             </div>
           </div>
         </div>
-        <div class="owl-item active" style="width: 343.667px">
+        <div class="owl-item active" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc36.jpeg" alt="" />
@@ -737,7 +1181,7 @@
             </div>
           </div>
         </div>
-        <div class="owl-item active" style="width: 343.667px">
+        <div class="owl-item active" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc34.jpeg" alt="" />
@@ -769,7 +1213,7 @@
             </div>
           </div>
         </div>
-        <div class="owl-item active" style="width: 343.667px">
+        <div class="owl-item active" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc30.jpeg" alt="" />
@@ -801,13 +1245,13 @@
             </div>
           </div>
         </div>
-        <div class="owl-item" style="width: 343.667px">
+        <div class="owl-item" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc34.jpeg" alt="" />
 
               <span class="icon">
-                <img src="doc33.png" alt="" />
+                <img src="doc35.png" alt="" />
               </span>
             </div>
 
@@ -833,13 +1277,13 @@
             </div>
           </div>
         </div>
-        <div class="owl-item" style="width: 343.667px">
+        <div class="owl-item" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc34.jpeg" alt="" />
 
               <span class="icon">
-                <img src="doc33.png" alt="" />
+                <img src="doc35.png" alt="" />
               </span>
             </div>
 
@@ -865,7 +1309,7 @@
             </div>
           </div>
         </div>
-        <div class="owl-item cloned" style="width: 343.667px">
+        <div class="owl-item cloned" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc34.jpeg" alt="" />
@@ -897,7 +1341,7 @@
             </div>
           </div>
         </div>
-        <div class="owl-item cloned" style="width: 343.667px">
+        <div class="owl-item cloned" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc36.jpeg" alt="" />
@@ -929,7 +1373,7 @@
             </div>
           </div>
         </div>
-        <div class="owl-item cloned" style="width: 343.667px">
+        <div class="owl-item cloned" style="width: 355px">
           <div class="single-carousel-item">
             <div class="thumb">
               <img src="doc36.jpeg" alt="" />
@@ -968,8 +1412,8 @@
       <div class="owl-next"><i class="fal fa-angle-right"></i></div>
     </div>
     <div class="owl-dots disabled"></div>
-  </div>
-  <section class="experience-area pt-120 pb-120 bg_img" data-background="assets/images/bg/experience-bg.jpeg"
+  </div>  
+<section class="experience-area pt-120 pb-120 bg_img" data-background="assets/images/bg/experience-bg.jpeg"
     style="background-image: url(doc37.jpeg);">
 
     <div class="container">
@@ -997,7 +1441,7 @@
 
                 <div class="content">
 
-                  <h2 class="title"><span class="counter">51</span>%</h2>
+                  <h2 class="title"><span  class="counter first"></span>%</h2>
 
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
 
@@ -1019,7 +1463,7 @@
 
                 <div class="content">
 
-                  <h2 class="title"><span class="counter">82</span>%</h2>
+                  <h2 class="title"><span class="counter second"></span>%</h2>
 
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
 
@@ -1037,8 +1481,8 @@
 
     </div>
 
-  </section>
-  <!--   <section class="pricing-area pt-120 pb-120 bg-2">
+  </section> 
+      <section class="pricing-area pt-120 pb-120 bg-2">
 
     <div class="container">
 
@@ -1078,15 +1522,15 @@
 
               <ul>
 
-                <li>Routine checkup<i class="fal fa-check"></i></li>
+                <li>Routine checkup<i class="fa-solid fa-check"></i></li>
 
-                <li>24h Assisance<i class="fal fa-check"></i></li>
+                <li>24h Assisance<i class="fa-solid fa-check"></i></li>
 
-                <li>100 Tests &amp; Treatments<i class="fal fa-check"></i></li>
+                <li>100 Tests &amp; Treatments<i class="fa-solid fa-check"></i></li>
 
-                <li>Regular Health Checkups<i class="fal fa-check"></i></li>
+                <li>Regular Health Checkups<i class="fa-solid fa-check"></i></li>
 
-                <li>Blood Test<i class="fal fa-check"></i></li>
+                <li>Blood Test<i class="fa-solid fa-check"></i></li>
 
               </ul>
 
@@ -1117,17 +1561,17 @@
 
               <ul>
 
-                <li>Routine checkup<i class="fal fa-check"></i></li>
+                <li>Routine checkup<i class="fa-solid fa-check"></i></li>
 
-                <li>24h Assisance<i class="fal fa-check"></i></li>
+                <li>24h Assisance<i class="fa-solid fa-check"></i></li>
 
-                <li>100 Tests &amp; Treatments<i class="fal fa-check"></i></li>
+                <li>100 Tests &amp; Treatments<i class="fa-solid fa-check"></i></li>
 
-                <li>Regular Health Checkups<i class="fal fa-check"></i></li>
+                <li>Regular Health Checkups<i class="fa-solid fa-check"></i></li>
 
-                <li>Blood Test<i class="fal fa-check"></i></li>
+                <li>Blood Test<i class="fa-solid fa-check"></i></li>
 
-                <li>Kidney Test<i class="fal fa-check"></i></li>
+                <li>Kidney Test<i class="fa-solid fa-check"></i></li>
 
               </ul>
 
@@ -1163,15 +1607,15 @@
 
               <ul>
 
-                <li>Routine checkup<i class="fal fa-check"></i></li>
+                <li>Routine checkup<i class="fa-solid fa-check"></i></li>
 
-                <li>24h Assisance<i class="fal fa-check"></i></li>
+                <li>24h Assisance<i class="fa-solid fa-check"></i></li>
 
-                <li>100 Tests &amp; Treatments<i class="fal fa-check"></i></li>
+                <li>100 Tests &amp; Treatments<i class="fa-solid fa-check"></i></li>
 
-                <li>Regular Health Checkups<i class="fal fa-check"></i></li>
+                <li>Regular Health Checkups<i class="fa-solid fa-check"></i></li>
 
-                <li>Blood Test<i class="fal fa-check"></i></li>
+                <li>Blood Test<i class="fa-solid fa-check"></i></li>
 
               </ul>
 
@@ -1187,7 +1631,343 @@
 
     </div>
 
-  </section> -->
+  </section> 
+  <!-- Price and plans done********************************************** -->
+  <section class="blog-area">
+
+    <div class="container-fluid">
+
+        <div class="row no-gutters">
+
+            <div class="col-lg-6">
+
+                <div class="video-box">
+
+                    <div class="video-thumb">
+
+                        <img src="doc41.jpeg" alt="">
+
+                    </div>
+
+                    <a href="https://www.youtube.com/embed/4xe72U7mXNg?rel=0&controls=0&showinfo=0" class="video-btn" data-rel="lightcase:myCollection"><i class="fa-solid fa-play"></i></a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 my-auto">
+
+                <div class="blog-content-wrap">
+
+                    <div class="section-heading mb-80">
+
+                        <h4 class="sub-title">our blog</h4>
+
+                        <h2 class="section-title">Get Every Single <br> News Feeds<span>.</span></h2>
+
+                    </div>
+
+                    <div class="blog-list">
+
+                        <div class="single-blog-item">
+
+                            <div class="thumb">
+
+                                <img src="doc42.jpeg" alt="">
+
+                            </div>
+
+                            <div class="content">
+
+                                <div class="blog-meta">
+
+                                  <ul>
+
+                                    <li><a href="#0"><i class="fa-regular fa-calendar-days"></i></i> 12th May 2020</a></li>
+
+                                    <li><a href="#0"><i class="fa-regular fa-user"></i> By Admin</a></li>
+
+                                </ul> 
+
+                                </div>
+
+                                <h4 class="title"><a href="blog-details.html">I am deeply grateful to Dr. Chase for his
+
+                                    expertise and care.</a></h4>
+
+                            </div>
+
+                        </div>
+
+                        <div class="single-blog-item">
+
+                            <div class="thumb">
+
+                                <img src="doc43.jpeg" alt="">
+
+                            </div>
+
+                            <div class="content">
+
+                                <div class="blog-meta">
+
+                                  <ul>
+
+                                    <li><a href="#0"><i class="fa-regular fa-calendar-days"></i></i> 12th May 2020</a></li>
+
+                                    <li><a href="#0"><i class="fa-regular fa-user"></i> By Admin</a></li>
+
+                                </ul>
+
+                                </div>
+
+                                <h4 class="title"><a href="blog-details.html">I am deeply grateful to Dr. Chase for his
+
+                                    expertise and care.</a></h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section> 
+<section class="newslater-area">
+
+  <div class="container-fluid">
+
+      <div class="row no-gutters">
+
+          <div class="col-lg-6 my-auto">
+
+              <div class="newslater-content-wrap">
+
+                  <div class="section-heading mb-60">
+
+                      <h4 class="sub-title">our blog</h4>
+
+                      <h2 class="section-title">Get Every Single <br> News Feeds<span>.</span></h2>
+
+                  </div>
+
+                  <div class="newslater-form">
+
+                      <form action="index.html">
+
+                          <label for="mail">Email Address <span>**</span></label>
+
+                          <input type="email" id="mail" placeholder="Your Email Address">
+
+                          <button class="site-btn" type="submit">Subscribe Now</button>
+
+                      </form>
+
+                  </div>
+
+                  <div class="newslater-lists">
+
+                      <ul>
+
+                          <li><span>01.</span> Trust us we are not gonna spam</li>
+
+                          <li><span>02.</span> GDPR Supported</li>
+
+                          <li><span>03.</span> Secure information</li>
+
+                          <li><span>04.</span> Get Daily Updates</li>
+
+                      </ul>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+              <div class="newslater-bg">
+
+                  <img src="doc44.jpeg" alt="">
+
+              </div>
+
+          </div>
+
+      </div>
+
+  </div>
+
+</section>
+<div class="sponser">
+  <div class="sponserimg"><img src="doc45.png" alt=""></div>
+  <div class="sponserimg"><img src="doc46.png" alt=""></div>
+  <div class="sponserimg"><img src="doc47.png" alt=""></div>
+  <div class="sponserimg"><img src="doc48.png" alt=""></div>
+</div>
+<footer class="site-footer site-footer-2 pt-100">
+
+  <div class="container footer-width">
+
+      <div class="row">
+
+          <div class="col-xl-3 col-lg-5">
+
+              <div class="footer-widget">
+
+                  <h4 class="widget-title">About Us</h4>
+
+                  <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+
+                  <div class="social-links">
+
+                      <a href="#0"><i class="fab fa-facebook-f"></i></a>
+
+                      <a href="#0"><i class="fab fa-twitter"></i></a>
+
+                      <a href="#0"><i class="fab fa-behance"></i></a>
+
+                      <a href="#0"><i class="fab fa-youtube"></i></a>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="col-xl-5 col-lg-7">
+
+              <div class="opening-hour-box contact-support-info" data-overlay="100">
+
+                  <div class="opening-hour-top">
+
+                      <div class="icon">
+
+                          <img src="doc49.png" alt="">
+
+                      </div>
+
+                      <div class="content">
+
+                          <h5 class="title">Contact &amp; Support</h5>
+
+                          <p>It’s a fake timing. Actually we
+
+                          are available 24/7.</p>
+
+                      </div>
+
+                  </div>
+
+                  <div class="opening-hour-support-info">
+
+                      <div class="single-support-info">
+
+                          <h4 class="title">Phone</h4>
+
+                          <div class="content">
+
+                              <a href="tel:9878765864864">+987 8765 864 864</a>
+
+                              <a href="tel:0978778757569">+09(787) 787 5756 9</a>
+
+                          </div>
+
+                      </div>
+
+                      <div class="single-support-info">
+
+                          <h4 class="title">Email</h4>
+
+                          <div class="content">
+
+                              <a href="mailto:info@webmail.com">info@webmail.com</a>
+
+                              <a href="mailto:infosupport@mail.com">infosupport@mail.com</a>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="col-xl-4 col-lg-6 pl-0 pr-10">
+
+              <div class="opening-hour-box opening-hour-box-3 bg_img ml-none-5" data-overlay="94" data-background="doc50.jpg" style="background-image: url(doc50.jpg);">
+
+                  <div class="opening-hour-top">
+
+                      <div class="icon">
+
+                          <img src="doc51.png" alt="">
+
+                      </div>
+
+                      <div class="content">
+
+                          <h5 class="title">Opening Hours</h5>
+
+                          <p>It’s a fake timing. Actually we
+
+                          are available 24/7.</p>
+
+                      </div>
+
+                  </div>
+
+                  <div class="opening-hour-list">
+
+                      <ul>
+
+                          <li>Monday - Friday<span>8:00 - 16:00</span></li>
+
+                          <li>Saturday<span>8:00 - 12:00</span></li>
+
+                          <li>Sunday<span><strong>Closed</strong></span></li>
+
+                          <li>Lunch Break<span>9:15 - 22:45</span></li>
+
+                      </ul>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div>
+
+      <div class="row">
+
+          <div class="col-lg-12 text-center">
+
+              <div class="copyright-text copyright-text-2">
+
+                  <p>Copyright By@<span>Example</span> - 2020</p>
+
+              </div>
+
+          </div>
+
+      </div>
+
+  </div>
+
+</footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>

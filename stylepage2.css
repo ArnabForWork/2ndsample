@@ -36,7 +36,7 @@
 
  */
  /* Experience section done************************************************ */
- /* .pricing-area {
+  .pricing-area {
    position: relative;
    z-index: 2;
 }
@@ -47,7 +47,7 @@
    
    justify-content: center!important;
 }
-.text-center {
+ .text-center {
    text-align: center!important;
 }
 .pricing-area .section-heading .section-title {
@@ -124,21 +124,7 @@
    padding: 15px 44px;
    text-decoration: none ;
 }
-.site-btn::before {
-   background: linear-gradient( 90deg, rgba(1, 140, 196, 1) 0%, rgba(76, 188, 211, 1) 100% );
-  
-   content: "";
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-   border-radius: 40px;
-   transition: all 0.3s ease-in-out;
-   transform: scale(1);
-   z-index: -1;
-   opacity: 0;
-}
+
 .single-pricing-box.active {
    color: #fff;
    z-index: 1;
@@ -181,5 +167,5 @@ a, a:hover, a:visited, a:link {
 }
 a:hover{
    background-color: #003242;
-} */
+}  */
  /* Price portion done */
